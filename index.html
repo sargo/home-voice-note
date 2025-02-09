@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HomeVoiceNote</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://sdk.amazonaws.com/js/aws-sdk-2.1447.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uuid/8.3.2/uuid.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div id="speakerName" class="status"></div>
+        <div id="status" class="status"></div>
+        
+        <button id="recordButton" class="record-button">
+            Start Recording
+        </button>
+
+        <div class="timer" id="timer">00:00</div>
+
+        <div class="upload-status" id="uploadStatus"></div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
